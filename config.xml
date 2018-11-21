@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pi_Controller_Config>
+    <Port>6000</Port>
+    <Director_Section>
+        <IsDirector>Yes</IsDirector>
+        <DirectorAddr>192.168.0.82</DirectorAddr>
+        <CtrlList>
+            <Ctrller>
+                <IPAddr>192.168.0.82</IPAddr>
+                <MaxError>5</MaxError>
+            </Ctrller>
+        </CtrlList>
+        <Distributed>No</Distributed>
+        <SyncUpdate>15000</SyncUpdate>
+        <PrevSlice>Yes</PrevSlice>
+        <SongList>
+            <Song>cane_Network.xml</Song>
+        </SongList>
+        <NumberOfTimes>1</NumberOfTimes>
+    </Director_Section>
+    <Controller_Section>
+        <CtrlIPAddr>192.168.0.82</CtrlIPAddr>
+        <Controller_Index>0</Controller_Index>
+        <Sub_Ctrl_List>
+            <Pixel>
+                <Num_Ch>144</Num_Ch>
+                <USB_Port>1.2</USB_Port>
+                <USB_Serial_Num>10</USB_Serial_Num>
+            </Pixel>
+        </Sub_Ctrl_List>
+    </Controller_Section>
+</Pi_Controller_Config>
