@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vixen3_Export>
+	<Resolution>50</Resolution>
+	<OutFile>48test.fseq</OutFile>
+	<Duration>00:03:52.5150000</Duration>
+	<Network>
+		<Controller>
+			<Index>0</Index>
+			<Name>Generic Serial 1</Name>
+			<StartChan>1</StartChan>
+			<Channels>24</Channels>
+		</Controller>
+		<Controller>
+			<Index>1</Index>
+			<Name>Generic Serial 2</Name>
+			<StartChan>25</StartChan>
+			<Channels>24</Channels>
+		</Controller>
+	</Network>
+</Vixen3_Export>
